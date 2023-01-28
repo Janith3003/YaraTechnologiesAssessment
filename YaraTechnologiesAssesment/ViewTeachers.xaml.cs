@@ -9,8 +9,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using MySql.Data.MySqlClient;
-using MySql.Data;
 using System.Data;
 
 namespace YaraTechnologiesAssesment
@@ -20,23 +18,18 @@ namespace YaraTechnologiesAssesment
     /// </summary>
     public partial class ViewTeachers : Window
     {
-        private MySqlConnection con;
-        private MySqlCommand cmd;
-        private MySqlDataAdapter da;
+        DBData db = new DBData();
+        DataTable dt;
+
         public ViewTeachers()
         {
             InitializeComponent();
-            con = new MySqlConnection("server=localhost; uid=root; password=; database=yaratechnologiesassessment");
         }
 
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
-            con.Open();
-            da = new MySqlDataAdapter("SELECT * FROM teachers", con);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
+            dt = db.getAllData();
             dgv_teachers.ItemsSource = dt.DefaultView;
-            con.Close();
 
         }
 
@@ -44,21 +37,14 @@ namespace YaraTechnologiesAssesment
         {
             if (txt_name.Text.Length != 0)
             {
-                con.Open();
-                da = new MySqlDataAdapter("SELECT * FROM teachers where name='" + txt_name.Text + "'", con);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
+
+                dt = db.getDataFromName(txt_name.Text);
                 dgv_teachers.ItemsSource = dt.DefaultView;
-                con.Close();
             }
             else
             {
-                con.Open();
-                da = new MySqlDataAdapter("SELECT * FROM teachers", con);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
+                dt = db.getAllData();
                 dgv_teachers.ItemsSource = dt.DefaultView;
-                con.Close();
             }
         }
 
