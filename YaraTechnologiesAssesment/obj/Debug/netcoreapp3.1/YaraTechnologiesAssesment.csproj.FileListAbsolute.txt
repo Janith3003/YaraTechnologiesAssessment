@@ -4,9 +4,6 @@ C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\D
 C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\YaraTechnologiesAssesment.runtimeconfig.dev.json
 C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\YaraTechnologiesAssesment.dll
 C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\YaraTechnologiesAssesment.pdb
-C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
-C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
-C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
 C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\obj\Debug\netcoreapp3.1\App.g.cs
 C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\obj\Debug\netcoreapp3.1\YaraTechnologiesAssesment_MarkupCompile.cache
