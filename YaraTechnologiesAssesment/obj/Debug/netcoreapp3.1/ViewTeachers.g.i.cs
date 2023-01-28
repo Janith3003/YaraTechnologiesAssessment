@@ -53,7 +53,7 @@ namespace YaraTechnologiesAssesment {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/YaraTechnologiesAssesment;component/viewteachers.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/YaraTechnologiesAssesment;V1.0.0.0;component/viewteachers.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ViewTeachers.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
