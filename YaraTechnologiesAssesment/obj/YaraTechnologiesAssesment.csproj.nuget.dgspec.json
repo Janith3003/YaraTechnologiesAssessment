@@ -43,6 +43,10 @@
             "MaterialDesignThemes": {
               "target": "Package",
               "version": "[4.7.1, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.32, )"
             }
           },
           "imports": [

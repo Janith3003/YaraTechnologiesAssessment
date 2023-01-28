@@ -26,3 +26,16 @@ C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\obj\D
 C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\obj\Debug\netcoreapp3.1\ViewTeachers.g.cs
 C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\obj\Debug\netcoreapp3.1\AddTeacher.baml
 C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\obj\Debug\netcoreapp3.1\ViewTeachers.baml
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\ZstdNet.dll
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\comerr64.dll
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\gssapi64.dll
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\k5sprt64.dll
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\krb5_64.dll
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\krbcc64.dll
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll

@@ -4,9 +4,17 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:YaraTechnologiesAssesment"
+        WindowStyle="None"
         mc:Ignorable="d"
         Title="AddTeacher" Height="450" Width="800">
     <Grid>
+        <Label Content="Add Teacher" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" HorizontalContentAlignment="Center" Height="59" Width="264"/>
+        <Label Content="Name : " HorizontalAlignment="Left" Margin="255,176,0,0" VerticalAlignment="Top" Height="30" Width="70" FontSize="13" FontWeight="Bold"/>
+        <Label Content="Subject : " HorizontalAlignment="Left" Margin="255,271,0,0" VerticalAlignment="Top" Height="28" Width="70" RenderTransformOrigin="0.463,0.567" FontSize="13" FontWeight="Bold"/>
+        <TextBox x:Name="txt_name" HorizontalAlignment="Left" Margin="370,179,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" Height="24" FontSize="13" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="txt_subject" HorizontalAlignment="Left" Margin="370,273,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" Height="24" FontSize="13" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="btn_submit" Content="Submit" HorizontalAlignment="Center" Margin="0,376,0,0" VerticalAlignment="Top" Height="24" Width="190" FontWeight="Bold" FontSize="15" Click="btn_submit_Click"/>
+        
         
     </Grid>
 </Window>
