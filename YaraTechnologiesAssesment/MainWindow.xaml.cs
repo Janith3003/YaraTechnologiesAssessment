@@ -39,5 +39,10 @@ namespace YaraTechnologiesAssesment
             obj.Show();
             this.Close();
         }
+
+        private void PackIcon_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -36,3 +36,7 @@ C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\D
 C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\krbcc64.dll
 C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
 C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\obj\Debug\netcoreapp3.1\App.baml

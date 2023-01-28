@@ -21,5 +21,16 @@ namespace YaraTechnologiesAssesment
         {
             InitializeComponent();
         }
+
+        private void btn_view_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_cancel_Click(object sender, RoutedEventArgs e)
+        {
+            new MainWindow().Show();
+            this.Close();
+        }
     }
 }
