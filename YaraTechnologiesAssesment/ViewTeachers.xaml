@@ -8,11 +8,12 @@
         mc:Ignorable="d"
         WindowStyle="None"
         WindowStartupLocation="CenterScreen"
-        Title="ViewTeachers" Height="450" Width="800">
-    <Grid>
-        <DataGrid HorizontalAlignment="Center"  Margin="0,29,0,0" Height="309" VerticalAlignment="Top" Width="716"/>
-        <Button x:Name="btn_view" Content="VIEW" HorizontalAlignment="Left" Margin="314,367,0,0" VerticalAlignment="Top" Click="btn_view_Click" Width="76"/>
-        <Button x:Name="btn_cancel" Content="CANCEL" HorizontalAlignment="Left" Margin="415,367,0,0" VerticalAlignment="Top" Click="btn_cancel_Click"/>
+        Title="ViewTeachers" Height="450" Width="500">
+    <Grid Loaded="Grid_Loaded">
+        <DataGrid x:Name="dgv_teachers" HorizontalAlignment="Center"  Margin="0,29,0,0" Height="309" VerticalAlignment="Top" Width="428" HorizontalContentAlignment="Center"/>
+        <Button x:Name="btn_view" Content="VIEW" HorizontalAlignment="Left" Margin="250,377,0,0" VerticalAlignment="Top" Click="btn_view_Click" Width="76"/>
+        <Button x:Name="btn_cancel" Content="CANCEL" HorizontalAlignment="Left" Margin="347,377,0,0" VerticalAlignment="Top" Click="btn_cancel_Click"/>
+        <TextBox x:Name="txt_name" HorizontalAlignment="Left" Margin="64,377,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="165" Height="32" FontSize="13" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
 
     </Grid>

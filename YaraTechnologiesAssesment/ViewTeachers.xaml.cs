@@ -9,6 +9,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using MySql.Data.MySqlClient;
+using MySql.Data;
+using System.Data;
 
 namespace YaraTechnologiesAssesment
 {
@@ -17,20 +20,34 @@ namespace YaraTechnologiesAssesment
     /// </summary>
     public partial class ViewTeachers : Window
     {
+        private MySqlConnection con;
+        private MySqlCommand cmd;
+        private MySqlDataAdapter da;
         public ViewTeachers()
         {
             InitializeComponent();
+            con = new MySqlConnection("server=localhost; uid=root; password=; database=yaratechnologiesassessment");
         }
 
         private void btn_view_Click(object sender, RoutedEventArgs e)
         {
-
         }
 
         private void btn_cancel_Click(object sender, RoutedEventArgs e)
         {
             new MainWindow().Show();
             this.Close();
+        }
+
+        private void Grid_Loaded(object sender, RoutedEventArgs e)
+        {
+            con.Open();
+            da = new MySqlDataAdapter("SELECT * FROM teachers", con);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            dgv_teachers.ItemsSource = dt.DefaultView;
+            con.Close();
+
         }
     }
 }
