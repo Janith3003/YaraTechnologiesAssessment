@@ -30,6 +30,7 @@ namespace YaraTechnologiesAssesment
                 if (db.insertData(txt_name.Text, txt_subject.Text)==1)
                 {
                     new MainWindow().Show();
+                    MessageBox.Show("Sussessful");
                     this.Close();
                 }
                 else MessageBox.Show("Please Check Your Details Again");
