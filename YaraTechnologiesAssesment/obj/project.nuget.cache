@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qmUMU+4/zlGx1PSL891vic0QWtkgtVMGJDqG1sYfFuwpczg3lEttBgs+DUfKhhD2dhE5Ej2yKteSTP9rMzAing==",
+  "dgSpecHash": "PZtvj5J9NUlD4/W0W7qZbqJxRIXmUCY/SU6Mzk2d1OTLoFetG6h3ernlAM3CDERWikD/s4bXPWXvBRYorarWAw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\Desktop\\YaraTechnologiesAssessment\\YaraTechnologiesAssesment\\YaraTechnologiesAssesment.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\materialdesigncolors\\2.1.1\\materialdesigncolors.2.1.1.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\materialdesignthemes\\4.7.1\\materialdesignthemes.4.7.1.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
   "logs": []
 }
