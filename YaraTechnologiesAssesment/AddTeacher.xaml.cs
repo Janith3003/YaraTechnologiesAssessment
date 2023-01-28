@@ -17,28 +17,22 @@ namespace YaraTechnologiesAssesment
 {
     public partial class AddTeacher : Window
     {
-        private MySqlConnection con;
-        private MySqlCommand cmd;
-
+        DBData db = new DBData();
         public AddTeacher()
         {
             InitializeComponent();
-            con = new MySqlConnection("server=localhost; uid=root; password=; database=yaratechnologiesassessment");
         }
 
         private void btn_submit_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                con.Open();
-                cmd = new MySqlCommand("INSERT INTO teachers (name, subject) VALUES('" + txt_name.Text + "', '" + txt_subject.Text + "')", con);
-                if (cmd.ExecuteNonQuery() == 1)
+                if (db.insertData(txt_name.Text, txt_subject.Text)==1)
                 {
                     new MainWindow().Show();
                     this.Close();
                 }
                 else MessageBox.Show("Please Check Your Details Again");
-                con.Close();
             }
             catch(Exception ex)
             {
