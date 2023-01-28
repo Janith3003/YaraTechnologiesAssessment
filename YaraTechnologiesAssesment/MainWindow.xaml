@@ -7,8 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="Teachers Details" HorizontalAlignment="Center" Margin="0,90,0,0" VerticalAlignment="Top" Height="75" Width="354" HorizontalContentAlignment="Center" FontSize="40" FontWeight="Bold"/>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="20" Width="96"/>
+        <Label Content="Teachers Details" HorizontalAlignment="Center" Margin="0,54,0,0" VerticalAlignment="Top" Height="75" Width="354" HorizontalContentAlignment="Center" FontSize="40" FontWeight="Bold"/>
+        <Button Content="Add Teacher" HorizontalAlignment="Center" Margin="0,179,0,0" VerticalAlignment="Top" Height="58" Width="114" FontWeight="Bold" Click="btn_add"/>
+        <Button Content="View Teachers" HorizontalAlignment="Center" Margin="0,291,0,0" VerticalAlignment="Top" Height="58" Width="114" FontWeight="Bold" Click="btn_view"/>
 
     </Grid>
 </Window>

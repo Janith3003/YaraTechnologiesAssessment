@@ -24,5 +24,20 @@ namespace YaraTechnologiesAssesment
         {
             InitializeComponent();
         }
+
+        private void btn_add(object sender, RoutedEventArgs e)
+        {
+            AddTeacher obj = new AddTeacher();
+            obj.Show();
+            this.Close();
+        }
+
+        private void btn_view(object sender, RoutedEventArgs e)
+        {
+
+            ViewTeachers obj = new ViewTeachers();
+            obj.Show();
+            this.Close();
+        }
     }
 }

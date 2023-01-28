@@ -21,3 +21,8 @@ C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\obj\D
 C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\obj\Debug\netcoreapp3.1\YaraTechnologiesAssesment.dll
 C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\obj\Debug\netcoreapp3.1\YaraTechnologiesAssesment.pdb
 C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\obj\Debug\netcoreapp3.1\YaraTechnologiesAssesment.genruntimeconfig.cache
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\obj\Debug\netcoreapp3.1\YaraTechnologiesAssesment.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\obj\Debug\netcoreapp3.1\AddTeacher.g.cs
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\obj\Debug\netcoreapp3.1\ViewTeachers.g.cs
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\obj\Debug\netcoreapp3.1\AddTeacher.baml
+C:\Users\Asus\Desktop\YaraTechnologiesAssessment\YaraTechnologiesAssesment\obj\Debug\netcoreapp3.1\ViewTeachers.baml
