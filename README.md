@@ -4,7 +4,12 @@
 
  * no need to connect the database to VS
  ```CS
-con = new MySqlConnection("server=localhost; uid=root; password=; database=yaratechnologiesassessment");
+con = new MySqlConnection("
+                           server=localhost; 
+                           uid=root; 
+                           password=; 
+                           database=yaratechnologiesassessment
+                          ");
 ```
  - ` server ` : your current local machine (always localhost)
  - ` uid ` : username of your database account
