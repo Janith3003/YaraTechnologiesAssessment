@@ -3,13 +3,13 @@
 ### How to customize Connection String in C# MySql [ >> line 18 ](/YaraTechnologiesAssesment/DBData.cs)
 
  * no need to connect the database to VS
- ```CS
+ ```c++
 con = new MySqlConnection("
                            server=localhost; 
                            uid=root; 
                            password=; 
                            database=yaratechnologiesassessment
-                          ");
+                          "); 
 ```
  - ` server ` : your current local machine (always localhost)
  - ` uid ` : username of your database account
