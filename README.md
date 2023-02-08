@@ -1,6 +1,10 @@
-# Assessment of Yara Technologies
+<div align="center">
+ <img src="https://cdn.cdnlogo.com/logos/c/27/c.svg" width=60>
+ <h1> Assessment of Yara Technologies </h1>
+</div>
+<br>
 
-### How to customize Connection String in C# MySql [ >> line 18 ](/YaraTechnologiesAssesment/DBData.cs)
+## How to customize Connection String in C# MySql [ >> line 18 ](/YaraTechnologiesAssesment/DBData.cs)
 
  * no need to connect the database to VS
  ```c#
