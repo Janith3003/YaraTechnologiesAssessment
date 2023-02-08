@@ -2,7 +2,7 @@
  <img src="https://cdn.cdnlogo.com/logos/c/27/c.svg" width=60>
  <h1> Assessment of Yara Technologies </h1>
 </div>
-<br>
+<br><br>
 
 ## How to customize Connection String in C# MySql [ >> line 18 ](/YaraTechnologiesAssesment/DBData.cs)
 
